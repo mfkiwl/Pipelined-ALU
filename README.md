@@ -1,0 +1,2 @@
+# Pipelined-ALU
+This module is a Verilog Implementation of a fully pipelined Arithmetic Logic Unit which is capable of performing all sorts of computations on Integers. The ARM 7 instruction set architecture is followed in the implementation which includes all of the standard operations with a control on weather to write the data back to register file, or not. It also takes care of the dependencies by using data forwarding methods. 
