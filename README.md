@@ -8,7 +8,7 @@ The 32 bit instructions loaded in the memory get executed in the specified seque
 # Pipeline
 The pipelined architecture is shown in the following diagram where the consecutive placement (and execution) of Decode, Execution and Write back module can be seen easily. ![](images/RTL Design.JPG)  
 # Simulation and Output
-The simulation can be easily generated using the Vivado simulator (and the testbench provided alongwith the design). Here is a snippet of the simulation output ![](images/PIPELINEDALU1.JPG) <br/>The output shown on the board consists of the 16 LSBs of the register number n (out of the 16 registers in the Register file). The position of the register n, can be specified as an input (in 4 bits) given through the board. 
+The simulation can be easily generated using the Vivado simulator (and the testbench provided alongwith the design). Here is a snippet of the simulation output ![](images/PIPELINEALU1.JPG) <br/>The output shown on the board consists of the 16 LSBs of the register number n (out of the 16 registers in the Register file). The position of the register n, can be specified as an input (in 4 bits) given through the board. 
 # Immediate operand
 The second operand in the instruction can either be a value stored in a register or an immediate value. There is a specified bit in the instruction which implies wheather the immediate or register operand has been used. The following simulation shows the instruction bit and hence the value assigned to the second operand. ![](images/Immediate.JPG)
 # Conclusion
